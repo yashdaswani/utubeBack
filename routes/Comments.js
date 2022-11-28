@@ -1,4 +1,4 @@
-import express from "express";
+const express = require("express");
 import { addComment, deleteComment, getComments } from "../controllers/comment.js";
 import {verifyToken} from "../verifyToken.js"
 const router = express.Router();
