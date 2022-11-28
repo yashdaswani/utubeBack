@@ -1,4 +1,4 @@
-const express = require("express");
+import express from "express";
 import { deleteUser, getUser, likeVideo, subscribeUser, unlikeVideo, unsubscribeUser, update } from "../controllers/user.js";
 import { verifyToken } from "../verifyToken.js";
 const router=express.Router()

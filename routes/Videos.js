@@ -1,4 +1,4 @@
-const express = require("express");
+import express from "express";
 import { addVideo, addView, getByTag, getVideo, random, search, sub, trend } from "../controllers/video.js";
 import { verifyToken } from "../verifyToken.js";
 
